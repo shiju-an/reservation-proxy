@@ -1,7 +1,14 @@
 const express = require('express')
 const app = express()
-const port = 3050
+const port = 3002;
+const path = require('path');
+const cors = require('cors');
+const httpProxy = require('http-proxy');
 
-app.get('/', (req, res) => res.send('Hello World!'))
+const proxy = httpProxy.createProxyServer({});
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+app.use(cors());
+app.use(express.static(__dirname + '/../dist'));
+
+
+app.listen(port, () => console.log(`Proxy server listening on port ${port}!`))
