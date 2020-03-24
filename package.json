@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Relax-ly/Jon-proxy/issues"
   },
-  "homepage": "https://github.com/Relax-ly/Jon-proxy#readme"
+  "homepage": "https://github.com/Relax-ly/Jon-proxy#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
