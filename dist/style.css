@@ -1,0 +1,61 @@
+#app{
+  margin: 25px;
+  float: right;
+}
+
+#Relaxly_body{
+  font-family: Circular, -apple-system, system-ui, Roboto, "Helvetica Neue", sans-serif;
+}
+
+#R_Icon{
+  width: 100px;
+}
+
+#full_title {
+  margin: 10px;
+}
+
+#title{
+  font-family: Circular, -apple-system, system-ui, Roboto, "Helvetica Neue", sans-serif;
+  color: #ff5a5f;
+  font-size: 70px;
+}
+
+#allHouses{
+  position: relative;
+  max-width: 250px;
+
+}
+
+#allHousesWrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 1000px;
+  padding: 10px;
+  border: solid;
+  overflow: scroll;
+}
+
+.singleHome {
+  width: 320px;
+  margin-left: 10px;
+
+}
+
+.bedsAndHouse {
+  width: auto;
+  display:block;
+  float: left;
+  position: relative;
+}
+.rating {
+  width: auto;
+  display:block;
+  float: right;
+  position: relative;
+
+}
+.description {
+  position: relative;
+}
