@@ -35,7 +35,7 @@ app.all('/api/listings/:listingID/reviews', (req, res) => {
   });
 });
 
-app.all('/houses/:houseId', (req, res) => {
+app.all('/v1/*', (req, res) => {
   proxy.web(req, res, {
     target: 'http://54.151.16.190'
   });
