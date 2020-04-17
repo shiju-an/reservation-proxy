@@ -1,3 +1,6 @@
+require('newrelic');
+console.log('big new relic');
+
 const express = require('express')
 const app = express()
 const cors = require('cors');
