@@ -41,5 +41,9 @@ app.all('/v1/*', (req, res) => {
   });
 });
 
+// loader.io test
+app.get('/loaderio-c04f3fe8727129800365b2dc5e16272bgit.txt/', (req, res) => {
+  res.send('loaderio-loaderio-c04f3fe8727129800365b2dc5e16272b');
+});
 
 app.listen(port, () => console.log(`Proxy server listening on port ${port}!`))
